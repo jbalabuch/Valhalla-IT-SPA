@@ -1,85 +1,71 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "login@gmail.com",
+      "password": "qwerty123",
+      "avatar": "/assets/man.png"
+    },
+    {
+      "id": "guest@gmail.com",
+      "password": "aaaa098",
+      "avatar": "/assets/woman.png"
+    },
+    {
+      "id": "anonim@gmail.com",
+      "password": "zaq12wsx",
+      "avatar": "/assets/man.png"
+    }
+  ],
   "rooms": [
     {
       "id": 1,
-      "name": "Pokój unarny",
-      "beds": 1,
-      "guests": 1,
-      "price": 170
+      "name": "Pokój Asgard",
+      "img": "/assets/rooms/1.jpg",
+      "price": 199
     },
     {
       "id": 2,
-      "name": "Pokój binarny",
-      "beds": 1,
-      "guests": 2,
-      "price": 240
+      "name": "Pokój Wanaheim",
+      "img": "/assets/rooms/2.jpg",
+      "price": 219
     },
     {
       "id": 3,
-      "name": "Pokój trójkowy",
-      "beds": 2,
-      "guests": 3,
-      "price": 290
+      "name": "Pokój Muspelheim",
+      "img": "/assets/rooms/3.jpg",
+      "price": 239
     },
     {
       "id": 4,
-      "name": "Pokój czwórkowy",
-      "beds": 2,
-      "guests": 4,
-      "price": 340
+      "name": "Pokój Midgard",
+      "img": "/assets/rooms/4.jpg",
+      "price": 259
+    },
+    {
+      "id": 5,
+      "name": "Pokój Alfheim",
+      "img": "/assets/rooms/5.jpg",
+      "price": 279
     }
   ],
   "treatments": [
     {
       "id": 1,
-      "name": "Masaż rozgrzanym monitorem",
-      "area": "back",
-      "time": 30,
-      "price": 80
+      "name": "Skuteczne zabiegi pielęgnacyjne",
+      "img": "/assets/treatments/1.jpg",
+      "price": 99
     },
     {
       "id": 2,
-      "name": "Biczowanie kablem od myszy",
-      "area": "back",
-      "time": 20,
-      "price": 70
+      "name": "Klasyczny masaż relaksacyjny",
+      "img": "/assets/treatments/2.jpg",
+      "price": 129
     },
     {
       "id": 3,
-      "name": "Peeling odłamkami płyty CD",
-      "area": "face",
-      "time": 15,
-      "price": 50
-    },
-    {
-      "id": 4,
-      "name": "Pedicure woskiem z USB",
-      "area": "legs",
-      "time": 25,
-      "price": 100
-    },
-    {
-      "id": 5,
-      "name": "Manicure analogowo-cyfrowy",
-      "area": "hands",
-      "time": 45,
-      "price": 150
-    },
-    {
-      "id": 6,
-      "name": "Kąpiel w gorącej kawie",
-      "area": "body",
-      "time": 60,
-      "price": 200
-    },
-    {
-      "id": 7,
-      "name": "Depilacja dyskiem twardym",
-      "area": "body",
-      "time": 45,
-      "price": 120
+      "name": "YONELLE MAN‑VITALIC",
+      "img": "/assets/treatments/3.jpg",
+      "price": 119
     }
   ]
 }
- 
