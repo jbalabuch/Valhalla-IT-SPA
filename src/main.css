@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Playfair+Display:400,400i,500,600,700,800,900|Roboto:100,300,400,500,700,900&display=swap&subset=latin-ext");
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 10px;
 }
 
-html {
-  font-size: 10px;
+main {
+  width: 100%;
+}
+
+body {
   background-color: #222c45;
   font-family: tahoma, sans-serif;
   color: #fff;
@@ -323,7 +328,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   margin-top: 2vh;
-  background-image: url(/assets/reception.jpg);
+  background-image: url(assets/reception.jpg);
   background-size: 100%;
   border-radius: 5px;
   width: 100%;
@@ -477,7 +482,7 @@ html {
   display: flex;
   margin-top: 1.5vh;
   margin-bottom: 2.2vh;
-  background-image: url(/assets/room_foto.jpg);
+  background-image: url(assets/room_foto.jpg);
   background-size: 100%;
   border-radius: 5px;
   width: 100%;
@@ -506,7 +511,7 @@ html {
   display: flex;
   margin-top: 1.5vh;
   margin-bottom: 2.2vh;
-  background-image: url(/assets/intervention_foto.jpg);
+  background-image: url(assets/intervention_foto.jpg);
   background-size: 100%;
   border-radius: 5px;
   width: 100%;

@@ -1,13 +1,12 @@
-import $ from 'jquery';
-import { routes } from './routes';
-import { oops } from '../views';
-import { routeChange } from './route-change';
+import $ from "jquery";
+import { routes } from "./routes";
+import { oops } from "../views";
+import { routeChange } from "./route-change";
 
 export class Router {
-
   constructor() {
     this.body = $(document.body);
-    this.outlet = $('main');
+    this.outlet = $("main");
     this.routes = routes;
   }
 
@@ -25,7 +24,7 @@ export class Router {
   }
 
   get(path) {
-    return this.routes.find(route => route.path === path );
+    return this.routes.find((route) => route.path === path);
   }
 
   has(path) {
@@ -36,16 +35,15 @@ export class Router {
     // sciezka istnieje, mozna nawigowac
     if (this.has(path)) {
       // { path: '/booking', data: {}, component: booking }
-      const { component } = this.get(path);
-      const html = component();
-      this.outlet.empty().append(html);
+      const { component, name } = this.get(path);
+      component().then((html) => {
+        this.outlet.empty().append(html);
+      });
     } else {
       const html = oops();
       this.outlet.empty().append(html);
     }
 
-    history.pushState(data, '', path);
+    history.pushState(data, "", path);
   }
-
-
 }

@@ -21,30 +21,35 @@
       "id": 1,
       "name": "Pokój Asgard",
       "img": "/assets/rooms/1.jpg",
+      "description": "adasdasdasd",
       "price": 199
     },
     {
       "id": 2,
       "name": "Pokój Wanaheim",
       "img": "/assets/rooms/2.jpg",
+      "description": "adasdasdasd",
       "price": 219
     },
     {
       "id": 3,
       "name": "Pokój Muspelheim",
       "img": "/assets/rooms/3.jpg",
+      "description": "adasdasdasd",
       "price": 239
     },
     {
       "id": 4,
       "name": "Pokój Midgard",
       "img": "/assets/rooms/4.jpg",
+      "description": "adasdasdasd",
       "price": 259
     },
     {
       "id": 5,
       "name": "Pokój Alfheim",
       "img": "/assets/rooms/5.jpg",
+      "description": "adasdasdasd",
       "price": 279
     }
   ],
@@ -53,18 +58,21 @@
       "id": 1,
       "name": "Skuteczne zabiegi pielęgnacyjne",
       "img": "/assets/treatments/1.jpg",
+      "description": "adasdasdasd",
       "price": 99
     },
     {
       "id": 2,
       "name": "Klasyczny masaż relaksacyjny",
       "img": "/assets/treatments/2.jpg",
+      "description": "adasdasdasd",
       "price": 129
     },
     {
       "id": 3,
       "name": "YONELLE MAN‑VITALIC",
       "img": "/assets/treatments/3.jpg",
+      "description": "adasdasdasd",
       "price": 119
     }
   ]
