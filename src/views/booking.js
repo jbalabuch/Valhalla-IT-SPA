@@ -22,7 +22,7 @@ export const booking = () => {
       );
       div.append(alert);
     } else {
-      let table = $(`<table class="table text-dark">`);
+      let table = $(`<table class="orders__table">`);
       div.append(table);
 
       const thead = $(`
@@ -32,11 +32,11 @@ export const booking = () => {
           <th>Data przyjazdu</th>
           <th>Data wyjazdu</th>
           <th>Typ usługi</th>
-          <th>Cena za noc</th>
-          <th>Cena całkowita</th>
+          <th>Cena</th>
+          <th>Suma</th>
           <th></th>
         </tr>
-      </thead>
+      </thead><
       `);
       table.append(thead);
 
