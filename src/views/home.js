@@ -8,7 +8,7 @@ import { modal } from "../modal/modal";
 export const home = () => {
   const fragment = $(new DocumentFragment());
 
-  fragment.append(modal());
+  // fragment.append(modal());
 
   const content = $(`
   <section class="home">
@@ -50,7 +50,7 @@ export const home = () => {
   
   `);
 
-  // fragment.append(content);
+  fragment.append(content);
 
   return Promise.resolve(fragment);
 };
